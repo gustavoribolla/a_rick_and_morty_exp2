@@ -3,18 +3,20 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
     public GameObject endGamePanel;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public Cronometro cronometro;
+    public GameObject textoTempo;
 
-    // Update is called once per frame
+    private bool fimDeJogo = false;
+
     void FixedUpdate()
     {
-       if(GameController.gameOver){
-            // endGamePanel = GameObject.Find("EndGamePanel");
+        if (!fimDeJogo && GameController.gameOver)
+        {
+            fimDeJogo = true;
+
+            cronometro.PararContagem(); 
             endGamePanel.SetActive(true);
+            textoTempo.SetActive(false);
         }
     }
 }
