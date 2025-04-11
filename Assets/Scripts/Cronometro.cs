@@ -4,7 +4,6 @@ using TMPro;
 public class Cronometro : MonoBehaviour
 {
     public TextMeshProUGUI tempoTexto;
-    public TextMeshProUGUI tempoFinalTexto;
     public bool contando = true;
 
     private float tempoAtual = 0f;
@@ -28,12 +27,6 @@ public class Cronometro : MonoBehaviour
     public void PararContagem()
     {
         contando = false;
-        if (tempoFinalTexto != null)
-        {
-            int minutos = Mathf.FloorToInt(tempoAtual / 60f);
-            int segundos = Mathf.FloorToInt(tempoAtual % 60f);
-            tempoFinalTexto.text = $"Tempo Final: {minutos:00}:{segundos:00}";
-        }
     }
 
     public float GetTempo()
