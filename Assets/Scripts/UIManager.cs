@@ -33,7 +33,7 @@ public class UIManager : MonoBehaviour
 
         fimDeJogo = true;
         cronometro.PararContagem();
-        textoTempo.SetActive(false);
+        textoTempo.SetActive(true);
         tempoFinalTexto.text = "GAME OVER";
         endGamePanel.SetActive(true);
 

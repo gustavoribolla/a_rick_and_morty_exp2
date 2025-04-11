@@ -55,7 +55,7 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log("O inimigo matou o jogador!");
 
-            UIManager ui = FindObjectOfType<UIManager>();
+            UIManager ui = FindFirstObjectByType<UIManager>();
             if (ui != null)
             {
                 ui.GameOver();
