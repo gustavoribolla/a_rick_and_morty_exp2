@@ -1,6 +1,8 @@
 ## 🕹️ A Rick and Morty Experience 2
 Prepare-se para um desafio interdimensional com Rick e Morty!
-Navegue, capture raios e desvie de planetas indesejados! 
+
+Navegue, capture raios e desvie dos obstáculos indesejados (PS: eles ficam mais rápido com o tempo)! 
+
 Tente sobreviver o máximo possível nesse jogo de ação em 2D com estilo arcade e estética inspirada no multiverso mais caótico da galáxia!
 
 ## Recursos:
@@ -24,7 +26,7 @@ Setas direcionais ou A/D para mover
 Fullscreen recomendado para melhor experiência!
 
 ## 💬 Dica:
-Jogue em tela cheia e reduza o zoom do navegador para evitar cortes em resoluções menores.
+Jogue em tela cheia!!!
 
 ## 👨‍🔬 Desenvolvedor:
 Jogo Desenvolvido por Gustavo Colombi Ribolla
